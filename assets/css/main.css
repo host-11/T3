@@ -380,7 +380,7 @@ header h6 + p {
 @media screen and (max-width: 980px) {
 header p {margin-left: 0;}
   header br {
-    display: none; } }
+    display: non_; } }
 
 @media screen and (max-width: 736px) {
   header br {
@@ -388,7 +388,7 @@ header p {margin-left: 0;}
 
 @media screen and (max-width: 480px) {
   header br {
-    display: none; } }
+    display: non_; } }
 
 /* Icon */
 .icon {
