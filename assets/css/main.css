@@ -357,7 +357,8 @@ section.special, article.special {
 header p {
   color: rgba(255, 255, 255, 0.5);
   position: relative;
-  margin: 0 0 1.5em 140px; }
+  margin: 0 0 1.5em 0;
+  margin-left: 140px; }
 
 header h2 + p {
   font-size: 1.25em;
@@ -377,6 +378,7 @@ header h6 + p {
   line-height: 1.5em; }
 
 @media screen and (max-width: 980px) {
+header p {margin-left: 0;}
   header br {
     display: none; } }
 
@@ -783,7 +785,8 @@ button,
 
 #header p {
   font-size: 0.9em;
-  line-height: 1.1em; }
+  line-height: 1.1em; 
+  max-width:950px}
 
 #header a {
   color: inherit; }
