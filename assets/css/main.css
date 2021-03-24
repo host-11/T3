@@ -362,6 +362,14 @@ header p {
   position: relative;
   margin: 0 0 1.5em 0;
   margin-left: 140px; }
+  
+  
+header ul{
+    position: relative;
+    margin: 0 0 1.5em 0;
+    margin-left: 140px;
+    color: rgba(255, 255, 255, 0.5);
+    }
 
 header h2 + p {
   font-size: 1.25em;
@@ -382,6 +390,7 @@ header h6 + p {
 
 @media screen and (max-width: 980px) {
 header p {margin-left: 0;}
+header ul {margin-left: 0;}
   header br {
     display: non_; } }
 
@@ -787,9 +796,15 @@ button,
   margin: 0 0 0.55em 0; }
 
 #header p {
-  font-size: 0.9em;
+  font-size: 0.8em;
   line-height: 1.1em; 
-  max-width:950px}
+  max-width:1000px}
+  
+  #header ul{
+    font-size: 0.8em;
+    line-height: 1.1em;
+    max-width: 950px;
+    }
 
 #header a {
   color: inherit; }
